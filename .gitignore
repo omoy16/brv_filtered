@@ -1,0 +1,202 @@
+# Pythonのコンパイル済みファイル / 最適化ファイル / DLL
+__pycache__/
+*.py[codz]
+*$py.class
+
+# プロジェクト固有で除外したいフォルダ
+old/
+.vscode/
+.credential/
+outputs/
+docs/docs_tmp/
+cache/
+logs/
+
+# C言語拡張モジュール
+*.so
+
+# 配布・パッケージング関連
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller関連
+# PyInstallerがexeを作成する際に生成する設定ファイル
+*.manifest
+*.spec
+
+# インストーラーのログ
+pip-log.txt
+pip-delete-this-directory.txt
+
+# テスト結果・カバレッジレポート
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 翻訳ファイル
+*.mo
+*.pot
+
+# Django関連
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask関連
+instance/
+.webassets-cache
+
+# Scrapy関連
+.scrapy
+
+# Sphinxドキュメント生成物
+docs/_build/
+
+# PyBuilder関連
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# ライブラリ開発ではコミットする場合もある
+# .python-version
+
+# pipenv
+# Pipfile.lockは通常コミット推奨
+# Pipfile.lock
+
+# UV
+# uv.lockは再現性確保のためコミット推奨の場合あり
+# uv.lock
+
+# Poetry
+# poetry.lockはアプリ開発ではコミット推奨
+# poetry.lock
+# poetry.toml
+
+# PDM
+# pdm.lockはコミット推奨
+# pdm.toml は設定共有用
+.pdm-python
+.pdm-build/
+
+# Pixi
+# pixi.lockはコミット推奨
+# .pixiは仮想環境なので除外
+.pixi
+
+# PEP582（__pypackages__）
+__pypackages__/
+
+# Celery関連
+celerybeat-schedule
+celerybeat.pid
+
+# Redis関連
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ関連
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ関連
+activemq-data/
+
+# SageMath生成ファイル
+*.sage.py
+
+# 仮想環境
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder設定
+.spyderproject
+.spyproject
+
+# Rope設定
+.ropeproject
+
+# MkDocs生成物
+/site
+
+# mypyキャッシュ
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre型チェック
+.pyre/
+
+# pytype型解析
+.pytype/
+
+# Cythonデバッグシンボル
+cython_debug/
+
+# PyCharm
+# .idea/ を除外したい場合は有効化
+# .idea/
+
+# Abstra
+# 認証情報やローカル設定
+.abstra/
+
+# Visual Studio Code
+# VS Code設定フォルダ
+# .vscode/
+
+# Ruffキャッシュ
+.ruff_cache/
+
+# PyPI設定ファイル
+.pypirc
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Streamlit
+.streamlit/secrets.toml
