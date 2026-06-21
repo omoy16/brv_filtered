@@ -5,10 +5,10 @@ logger = get_logger()
 
 
 INPUT_DIR = Path("filtered")
-PATTERN = "bb_rsi_valley_summary_*_3rd_bid_4th_ASK_SETS.csv"
+PATTERN = "pending_sets.csv"
 
 OUTPUT_DIR = Path("datasets")
-OUTPUT_FILE = "brv_datasets.csv"
+OUTPUT_FILE = "brv_pending_datasets.csv"
 
 DROP_COLUMNS = [
     "Exit_Dist_Pct",
